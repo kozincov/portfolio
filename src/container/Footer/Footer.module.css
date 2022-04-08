@@ -1,3 +1,35 @@
 .footer {
     background-color: #dbfccd;
+    height: 300px;
+}
+
+.container {
+    border: 1px solid;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.title  {
+    background-color: #8e8f92;
+}
+
+.contact {
+    height: 50px;
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.icon {
+    width: 60px;
+    height: 48px;
+    background-color: #8e8f92;
+
 }

@@ -1,9 +1,10 @@
-.skillsBlock {
-    background-color: #fafabb;
+.contact {
+    background-color: #eecdfc;
     min-height: 100vh;
+
 }
 
-.skillsContainer {
+.contactContainer {
     min-height: 100vh;
     width: 80%;
     border: 1px solid;
@@ -15,13 +16,25 @@
 }
 
 .title {
-    background-color: #dbfccd;
+    background-color: #8e8f92;
 }
 
-.skills {
+.form {
     border: 1px solid;
-    width: 100%;
+    width: 80%;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     flex-wrap: wrap;
+
+}
+
+.textarea {
+    height: 50%;
+    width: 80%;
+}
+
+.button {
+    margin-top: 20px;
 }

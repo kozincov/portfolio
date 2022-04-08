@@ -1,9 +1,9 @@
-.skillsBlock {
-    background-color: #fafabb;
-    min-height: 100vh;
+.projectBlock {
+    background-color: #ace7e7;
+    height: 100vh;
 }
 
-.skillsContainer {
+.container {
     min-height: 100vh;
     width: 80%;
     border: 1px solid;
@@ -18,10 +18,10 @@
     background-color: #dbfccd;
 }
 
-.skills {
+.project {
     border: 1px solid;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }

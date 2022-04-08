@@ -10,7 +10,8 @@ export const Skills = () => {
                 <div className={style.skills}>
                     <Skill title={'JS'} description={'Lorem ipsum dolor sit amet.'}/>
                     <Skill title={'React'} description={'Lorem ipsum dolor.'}/>
-                    <Skill title={'Redux'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing.'}/>
+                    <Skill title={'Redux'}
+                           description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. '}/>
                 </div>
             </div>
         </div>
