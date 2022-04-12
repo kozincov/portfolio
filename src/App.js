@@ -1,7 +1,6 @@
 import React from 'react';
 import style from './App.module.css'
-import {About, Footer, Header, Projects, Skills} from "./container";
-import {Contact} from "./container/Contact/Contact";
+import {About, Footer, Header, Projects, Skills, Contact} from "./container";
 
 export const App = () => {
     return (
