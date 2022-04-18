@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Projects.module.css'
+import style from './Projects.module.scss'
 import {Project} from "./Project/Project";
 
 export const Projects = () => {
