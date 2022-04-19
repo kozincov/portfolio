@@ -61,7 +61,7 @@ export const Header = () => {
                 className={style.app__header_circles}
             >
                 {[images.redux, images.react, images.sass].map((circle, index) => (
-                    <div className={`${style.circle_cmp} ${styleApp.app__flex}`} key={`circle_${index}`}>
+                    <div className={`${styleApp.app__flex}`} key={`circle_${index}`}>
                         <img src={circle} alt={'circle'}/>
                     </div>
                 ))}
