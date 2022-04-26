@@ -1,7 +1,8 @@
 import React from 'react';
 import style from './Footer.module.scss'
+import {AppWrap} from "../../wrapper";
 
-export const Footer = () => {
+const Footer = () => {
     return (
         <div className={style.footer}>
             <div className={style.container}>
@@ -17,3 +18,5 @@ export const Footer = () => {
         </div>
     );
 };
+
+export default AppWrap(Footer, 'footer')

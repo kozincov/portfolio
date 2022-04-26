@@ -1,7 +1,8 @@
 import React from 'react';
 import style from './Contact.module.scss'
+import {AppWrap} from "../../wrapper"
 
-export const Contact = () => {
+const Contact = () => {
     return (
         <div className={style.contact}>
             <div className={style.contactContainer}>
@@ -16,3 +17,5 @@ export const Contact = () => {
         </div>
     );
 };
+
+export default AppWrap(Contact, 'contact')

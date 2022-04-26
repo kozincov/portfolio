@@ -1,8 +1,9 @@
 import React from 'react';
 import style from './Projects.module.scss'
 import {Project} from "./Project/Project";
+import {AppWrap} from "../../wrapper";
 
-export const Projects = () => {
+const Projects = () => {
     return (
         <div className={style.projectBlock}>
             <div className={style.container}>
@@ -15,3 +16,5 @@ export const Projects = () => {
         </div>
     );
 };
+
+export default AppWrap(Projects, 'work')

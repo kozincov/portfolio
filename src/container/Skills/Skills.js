@@ -1,8 +1,9 @@
 import React from 'react';
 import style from './Skills.module.scss'
 import {Skill} from "./Skill/Skill";
+import {AppWrap} from "../../wrapper";
 
-export const Skills = () => {
+const Skills = () => {
     return (
         <div className={style.skillsBlock}>
             <div className={style.skillsContainer}>
@@ -17,3 +18,5 @@ export const Skills = () => {
         </div>
     );
 };
+
+export default AppWrap(Skills, 'skills')
