@@ -9,8 +9,8 @@ export const App = () => {
             <Nav/>
             <Header/>
             <About/>
-            <Skills/>
             <Projects/>
+            <Skills/>
             <Contact/>
             <Footer/>
 
