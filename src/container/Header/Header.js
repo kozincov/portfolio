@@ -45,14 +45,14 @@ const Header = () => {
             >
                 <img className={style.profile_img} src={images.profile3} alt={'profile_bg'}/>
 
-                {/*<motion.img*/}
-                {/*    whileInView={{scale: [0, 1]}}*/}
-                {/*    transition={{duration: 1, ease: 'easeInOut'}}*/}
-                {/*    className={style.overlay_circle}*/}
-                {/*    src={images.circle}*/}
-                {/*    alt={'profile_circle'}*/}
+                <motion.img
+                    whileInView={{scale: [0, 1]}}
+                    transition={{duration: 1, ease: 'easeInOut'}}
+                    className={style.overlay_circle}
+                    src={images.circle}
+                    alt={'profile_circle'}
 
-                {/*/>*/}
+                />
 
             </motion.div>
 
