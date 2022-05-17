@@ -30,7 +30,7 @@ const Projects = () => {
             description: '',
             imgUrl: images.about03,
             codeLink: '',
-            tags: 'Game',
+            tags: 'All',
         },
     ]
     const [filterProject, setFilterProject] = useState([])
@@ -75,8 +75,8 @@ const Projects = () => {
                 transition={{duration: 0.5, delayChildren: 0.5}}
                 className={style.app__project_portfolio}
             >
-                {filterProject.map((project, index) => (
-                    <div className={`${style.app__project_item} ${styleApp.app__flex}`} key={index}>
+                {project.map((project, index) => (
+                    <div key={index} className={`${style.app__project_item} ${styleApp.app__flex}`}>
                         <div className={`${style.app__project_img} ${styleApp.app__flex}`}>
                             <img src={project.imgUrl} alt={project.name}/>
 
