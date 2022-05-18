@@ -2,7 +2,7 @@ import React from 'react';
 import style from './About.module.scss'
 import styleApp from './../../App.module.scss'
 import {motion} from 'framer-motion';
-import {AppWrap} from "../../wrapper";
+import {AppWrap, MotionWrap} from "../../wrapper";
 import images from "../../constants/images";
 
 const abouts = [
@@ -41,4 +41,4 @@ const About = () => {
         </>
     );
 };
-export default AppWrap(About, 'about')
+export default AppWrap(MotionWrap(About, style.app__about), 'about', styleApp.app__whitebg)

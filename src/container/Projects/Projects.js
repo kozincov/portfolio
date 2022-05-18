@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import style from './Projects.module.scss'
 import styleApp from './../../App.module.scss'
 import {AiFillEye, AiFillGithub} from 'react-icons/ai';
-import {AppWrap} from "../../wrapper";
+import {AppWrap, MotionWrap} from "../../wrapper";
 import {motion} from 'framer-motion';
 import images from "../../constants/images";
 
@@ -124,4 +124,4 @@ const Projects = () => {
     );
 };
 
-export default AppWrap(Projects, 'projects')
+export default AppWrap(MotionWrap(Projects, style.app__projects), 'projects', styleApp.app__primarybg)
