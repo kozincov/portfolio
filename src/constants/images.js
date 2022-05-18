@@ -10,6 +10,13 @@ import about01 from '../assets/about01.png'
 import about02 from '../assets/about02.png'
 import about03 from '../assets/about03.png'
 import about04 from '../assets/about04.png'
+import css from '../assets/css.png'
+import git from '../assets/git.png'
+import html from '../assets/html.png'
+import javascript from '../assets/javascript.png'
+import typescript from '../assets/typescript.png'
+import email from '../assets/email.png'
+import mobile from '../assets/mobile.png'
 
 export default {
     profile3,
@@ -23,4 +30,11 @@ export default {
     about02,
     about03,
     about04,
+    css,
+    git,
+    html,
+    javascript,
+    typescript,
+    email,
+    mobile,
 }
